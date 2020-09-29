@@ -18,12 +18,15 @@
   },
   "homepage": "https://github.com/r-asada-ab/BabylonWithPhysics#readme",
   "devDependencies": {
-    "babylonjs": "^4.1.0",
-    "babylonjs-loaders": "^4.1.0",
+    "ammo.js": "github:kripken/ammo.js",
     "ts-loader": "^8.0.4",
     "typescript": "^4.0.3",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "babylonjs": "^4.1.0",
+    "babylonjs-loaders": "^4.1.0"
   }
 }

@@ -1,6 +1,9 @@
 module.exports = {
     mode: 'development',
     entry: './src/main.ts',
+    node: {
+        fs: "empty"
+    },
     module: {
       rules: [
         {
